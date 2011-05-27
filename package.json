@@ -1,0 +1,20 @@
+{
+  "author": "Brian Hammond <brian@fictorial.com> (http://fictorial.com)",
+  "name": "deputy-server",
+  "description": "A job server",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fictorial/deputy.git"
+  },
+  "bin": {
+    "deputy-server": "bin/deputy-server.js"
+  },
+  "engines": {
+    "node": "0.4.x"
+  },
+  "dependencies": {
+    "optimist": "0.x.x",
+    "json-line-protocol": "0.x.x"
+  }
+}
