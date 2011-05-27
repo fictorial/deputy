@@ -134,8 +134,8 @@ if argv.sock
   unix_server.on 'error', (error) ->
     console.error "unix server error: #{error.toString()}"
 
-# process.on 'uncaughtException', (error) ->
-#   console.error "uncaught error: #{error.toString()}"
+process.on 'uncaughtException', (error) ->
+  console.error "uncaught error: #{error.toString()}"
 
 if argv.verbose
   setInterval (-> console.error JSON.stringify manager.metrics), 5000
