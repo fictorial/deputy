@@ -1,4 +1,4 @@
-# Deputy Job Server
+# Deputy Job Server ![Project Status](http://stillmaintained.com/fictorial.deputy.png)
 
 A "client" can *do work* and *submit work* to be done by other clients.
 When a client is doing work, we call it a "worker".
